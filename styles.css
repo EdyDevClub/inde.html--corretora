@@ -1,0 +1,220 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #FF0033, #ff0000);
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #FF0033;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF0033;
+    color: white;
+}
+
+.language-selector {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.h3-info {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h3-info span {
+    color: #FF0033; /* Cor vermelha */
+}
+
+.account-info {
+    font-family: "Bricolage Grotesque", "Bricolage Grotesque Placeholder", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(97, 105, 122);
+}
+
+.btn-comece-aqui {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #FF0033;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-comece-aqui:hover {
+    background-color: #e6002c;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    background-color: transparent;
+    color: #FF0033;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-saiba-mais:hover {
+    color: #e6002c;
+}
+
+.language-selector {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.video-section iframe {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Reduzindo o tamanho */
+    max-width: 800px; /* Tamanho máximo */
+    height: 450px; /* Ajuste de altura */
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px; /* Adiciona um espaço de 50px abaixo da seção de vídeo */
+}
+
+
+.platform-title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: #e6002c;
+}
+
+.platform-description {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #61697a; /* Cor que combina com o texto */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os botões */
+    margin-top: 50px; /* Ajuste para dar um espaço adequado acima */
+}
+
+.btn-demo, .btn-register {
+    padding: 15px 30px;
+    background-color: #FF0033;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-demo:hover, .btn-register:hover {
+    background-color: #e6002c;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px;
+    margin-top: 50px;
+    justify-items: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.box {
+    width: 362px;
+    height: 403px;
+    padding: 20px;
+    background-color: #FF0033;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    position: relative;
+    width: 362px;
+    height: 403px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 5px; /* Ajuste para 5px da borda esquerda */
+}
+
+.icon img {
+    width: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 24px;
+}
+

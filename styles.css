@@ -207,10 +207,15 @@ button:hover {
     padding: 20px;
 }
 
+.box {
+    background-color: #212635; /* Cor de fundo das caixas */
+}
+
+
 .icon {
     position: absolute;
-    top: 10px;
-    left: 5px; /* Ajuste para 5px da borda esquerda */
+    top: 30px;
+    left: 25px; /* Ajuste para 5px da borda esquerda */
 }
 
 .icon img {
@@ -218,3 +223,76 @@ button:hover {
     height: 24px;
 }
 
+.icon img {
+    width: 80px;  /* Aumentando 50px do tamanho anterior */
+    height: 80px; /* Aumentando 50px do tamanho anterior */
+}
+
+.box .box-title {
+    margin-top: 130px; /* Espaçamento entre a imagem e o título */
+    font-size: 20px;  /* Aumentando o tamanho da fonte do <h5> */
+    text-align: left; /* Centraliza o título */
+}
+
+.box p {
+    margin-top: 16px; /* Espaçamento entre o título e o parágrafo */
+    text-align: left; /* Centraliza o parágrafo */
+    font-size: 15px;
+}
+
+.box {
+    position: relative; /* Necessário para posicionar o botão */
+    width: 362px;
+    height: 403px;
+    padding: 20px;
+    background-color: #212635; /* Cor de fundo das caixas */
+    border-radius: 5px;
+}
+
+.box button {
+    position: absolute; /* Posicionando o botão de forma absoluta dentro da caixa */
+    bottom: 25px; /* Distância de 25px da borda inferior */
+    left: 25px; /* Distância de 25px da borda esquerda */
+    padding: 10px 20px;
+    background-color: transparent; /* Sem fundo */
+    color: #3b6bf1; /* Azul forte */
+    border: none;
+    font-weight: bold; /* Tornando o texto em negrito */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box button:hover {
+    color: #305ae6; /* Azul mais escuro no hover */
+}
+
+h6 {
+    margin-top: 130px;
+    color: #ffffff; /* Cor vermelha para o título */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; /* Distância entre o título e o parágrafo */
+    text-align: left;
+}
+
+p {
+    color: #ffffff; /* Cor do texto do parágrafo */
+    font-size: 14px;
+    text-align: center;
+}
+
+.box h7 {
+    margin-top: 130px;
+    color: #ffffff; /* Cor vermelha para o título */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px; /* Distância entre o título e o parágrafo */
+}
+
+.box p {
+    color: #ffffff; /* Cor do texto do parágrafo */
+    font-size: 14px;
+    text-align: left;
+}

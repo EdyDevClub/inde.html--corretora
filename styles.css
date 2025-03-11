@@ -6,6 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Corpo da página */
+body {
+    background-color: #1C1F2C; /* Cor de fundo de toda a página */
+}
+
 /* Header */
 .header {
     display: flex;
@@ -18,12 +23,14 @@
 .header .logo h1 {
     font-size: 24px;
     font-weight: bold;
+    
 }
 
 nav {
     display: flex;
     gap: 15px;
 }
+
 
 button {
     padding: 10px 20px;
@@ -111,6 +118,7 @@ button:hover {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #1C1F2E; /* Cor de fundo atualizada */
 }
 
 .video-section iframe {
@@ -127,6 +135,7 @@ button:hover {
     align-items: center;
     margin-top: 30px;
     margin-bottom: 50px; /* Adiciona um espaço de 50px abaixo da seção de vídeo */
+    background-color: #1C1F2E; /* Cor de fundo atualizada */
 }
 
 
@@ -150,6 +159,14 @@ button:hover {
     color: #61697a; /* Cor que combina com o texto */
 }
 
+/* Seção de Título e Descrição da Plataforma */
+.platform-title,
+.platform-description {
+    background-color: #1C1F2E; /* Cor de fundo aplicada */
+    padding: 40px 0; /* Ajuste de padding para adicionar mais espaço acima e abaixo */
+}
+
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -165,6 +182,7 @@ button:hover {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+
 }
 
 .btn-demo:hover, .btn-register:hover {
@@ -178,6 +196,7 @@ button:hover {
     margin-top: 50px;
     justify-items: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
+    background-color: #1C1F2E; /* Cor de fundo atualizada */
 }
 
 
@@ -283,8 +302,67 @@ p {
 }
 
 .box h7 {
-    margin-top: 130px;
-    color: #ffffff; /* Cor vermelha para o título */
+    display: block; /* Faz com que o h7 se comporte como um bloco */
+    margin-top: 130px; /* Ajuste para a posição desejada abaixo da imagem */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+}
+
+.box .btn-explore {
+    position: absolute; /* Posicionando o botão dentro da caixa */
+    bottom: 25px; /* Distância de 25px da borda inferior */
+    left: 25px; /* Distância de 25px da borda esquerda */
+    padding: 10px 20px;
+    background-color: transparent; /* Sem fundo */
+    color: #3b6bf1; /* Azul forte */
+    border: none;
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box .btn-explore:hover {
+    color: #305ae6; /* Azul mais escuro no hover */
+}
+
+.box .btn-explore span {
+    margin-left: 5px; /* Espaço entre o texto e a seta */
+    font-size: 20px; /* Tamanho da seta */
+}
+
+.box {
+    position: relative; /* Necessário para posicionar o botão */
+    width: 362px;
+    height: 403px;
+    padding: 20px;
+    background-color: #212635; /* Cor de fundo das caixas */
+    border-radius: 5px;
+}
+
+.icon {
+    position: absolute;
+    top: 30px;
+    left: 25px; /* Ajuste para 5px da borda esquerda */
+}
+
+.icon img {
+    width: 80px;  /* Tamanho da imagem */
+    height: 80px; /* Tamanho da imagem */
+}
+
+.box h8 {
+    display: block; /* Faz com que o h7 se comporte como um bloco */
+    margin-top: 130px; /* Ajuste para a posição desejada abaixo da imagem */
+    color: #ffffff; /* Cor branca */
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -295,4 +373,114 @@ p {
     color: #ffffff; /* Cor do texto do parágrafo */
     font-size: 14px;
     text-align: left;
+}
+
+.box button {
+    position: absolute; /* Posicionando o botão de forma absoluta dentro da caixa */
+    bottom: 25px; /* Distância de 25px da borda inferior */
+    left: 25px; /* Distância de 25px da borda esquerda */
+    padding: 10px 20px;
+    background-color: transparent; /* Sem fundo */
+    color: #3b6bf1; /* Azul forte */
+    border: none;
+    font-weight: bold; /* Tornando o texto em negrito */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box button:hover {
+    color: #305ae6; /* Azul mais escuro no hover */
+}
+
+.box {
+    position: relative; /* Necessário para posicionar o botão */
+    width: 362px;
+    height: 403px;
+    padding: 20px;
+    background-color: #212635; /* Cor de fundo das caixas */
+    border-radius: 5px;
+}
+
+.icon {
+    position: absolute;
+    top: 30px;
+    left: 25px; /* Ajuste para 5px da borda esquerda */
+}
+
+.icon img {
+    width: 80px;  /* Aumentando o tamanho do ícone */
+    height: 80px;
+}
+
+.box h9 {
+    display: block; /* Faz com que o h7 se comporte como um bloco */
+    margin-top: 130px;
+    color: #ffffff; /* Cor do título */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #ffffff; /* Cor do texto do parágrafo */
+    font-size: 14px;
+    text-align: left;
+}
+
+.box button {
+    position: absolute; /* Posicionando o botão de forma absoluta dentro da caixa */
+    bottom: 25px; /* Distância de 25px da borda inferior */
+    left: 25px; /* Distância de 25px da borda esquerda */
+    padding: 10px 20px;
+    background-color: transparent; /* Sem fundo */
+    color: #3b6bf1; /* Azul forte */
+    border: none;
+    font-weight: bold; /* Tornando o texto em negrito */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box button:hover {
+    color: #305ae6; /* Azul mais escuro no hover */
+}
+
+/* Título <h10> */
+.box:nth-child(6) h10 {
+    display: block; /* Faz com que o h7 se comporte como um bloco */
+    margin-top: 130px; /* Distância entre o título e a borda superior */
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Cor do título */
+    text-align: left;
+}
+
+/* Parágrafo <p> */
+.box:nth-child(6) p {
+    color: #ffffff; /* Cor do parágrafo */
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px; /* Distância entre o título e o parágrafo */
+}
+
+/* Botão na caixa */
+.box:nth-child(6) button {
+    position: absolute; /* Posicionamento absoluto dentro da caixa */
+    bottom: 25px; /* Distância de 25px da borda inferior */
+    left: 25px; /* Distância de 25px da borda esquerda */
+    padding: 10px 20px;
+    background-color: transparent; /* Fundo transparente */
+    color: #3b6bf1; /* Cor azul para o botão */
+    border: none;
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box:nth-child(6) button:hover {
+    color: #305ae6; /* Azul mais escuro no hover */
+}
+
+.box:nth-child(6) button span {
+    margin-left: 5px; /* Espaçamento entre o texto e a seta */
 }
